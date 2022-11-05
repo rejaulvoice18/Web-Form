@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, tomato, orange);
+}
+.loginbox{
+    width:360px;
+    box-shadow: -3px 10px 55px -4px black;
+    border-radius:20px;
+    margin: 0 auto;
+    position:relative;
+    top:60px;
+}
+.avt-pic{
+    width: 100px;
+    height: 100px;
+    left: calc(50% - 50px);
+    top:-40px;
+    position:absolute;
+}
+.loginbox h4{
+    margin:0;
+    padding-top:65px;
+    color:white;
+    text-align:center;
+    font-size:35px;
+    font-family: cooper;
+}
+.loginbox form{
+    margin: 0px 25px 10px 25px;
+}
+.loginbox input{
+    width: 100%;
+    color:white;
+    margin-bottom:10px;
+}
+.loginbox p{
+    color:white;
+    font-size:20px;
+    font-weight: 700;
+}
+.loginbox input[type="text"], .loginbox input[type="password"]{
+    background-color: transparent;
+    height:32px;
+    border:none;
+    outline:none;
+    margin-bottom:10px;
+    border-bottom:1px solid white;
+    border-radius:10%;
+    color:#fff
+}
+.loginbox ::placeholder{
+    color:black;
+    font-size:14px;
+}
+.loginbox select{
+    background-color:transparent;
+    border:none;
+    color:white;
+    border-bottom:1px solid white;
+    font-size:16px;
+    height:35px;
+    outline:none;
+}
+.loginbox option{
+    background-color:black;
+}
+.loginbox input[type="submit"]{
+    background-color:transparent;
+    border:none;
+    outline:none;
+    font-size:20px;
+    border:1px solid white;
+    border-radius:50px;
+    box-shadow: -3px 10px 55px -4px black;
+    transition:1.5s;
+    height:35px;
+    color:white;
+    margin-top:10px;
+}
+.loginbox input[type="submit"]:hover{
+    background-color: white;;
+    color:black;
+    letter-spacing: 5px;
+}
+.loginbox a{
+    color:white;
+    text-decoration: none;
+    font-size:13px;
+}
